@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-07-06 11:46:13 CST",
+  "signal_date": "2026-07-02",
+  "today": "2026-07-03",
+  "quote_source_mode": "daily",
+  "holdings_count": 9,
+  "account_total_asset": 102834.3,
+  "account_total_asset_source": "current_holdings_estimated_total_asset",
+  "holdings_update_date": "2026-07-03",
+  "stale_signal": true,
+  "sell_orders": [],
+  "sell_blocked": [],
+  "sell_cancelled": [],
+  "hold_orders": [
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "shares": 100.0,
+      "cost": 167.752,
+      "rank": 15,
+      "score": 0.5706712962962963,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "shares": 100.0,
+      "cost": 142.94,
+      "rank": 16,
+      "score": 0.5703935185185186,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600160",
+      "name": "巨化股份",
+      "shares": 200.0,
+      "cost": 46.555,
+      "rank": 1,
+      "score": 0.6375694444444444,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002049",
+      "name": "紫光国微",
+      "shares": 100.0,
+      "cost": 80.06,
+      "rank": 6,
+      "score": 0.6002777777777778,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601995",
+      "name": "中金公司",
+      "shares": 200.0,
+      "cost": 36.575,
+      "rank": 2,
+      "score": 0.6342592592592593,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600522",
+      "name": "中天科技",
+      "shares": 100.0,
+      "cost": 49.751,
+      "rank": 12,
+      "score": 0.5766203703703705,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002422",
+      "name": "科伦药业",
+      "shares": 100.0,
+      "cost": 36.45,
+      "rank": 3,
+      "score": 0.623125,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "shares": 200.0,
+      "cost": 96.03,
+      "rank": 7,
+      "score": 0.5886805555555555,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601658",
+      "name": "邮储银行",
+      "shares": 100.0,
+      "cost": 5.01,
+      "rank": 4,
+      "score": 0.6088425925925927,
+      "reason": "Top20内持有"
+    }
+  ],
+  "buy_watch": [
+    {
+      "code": "300661",
+      "name": "圣邦股份",
+      "rank": 5,
+      "score": 0.6039351851851852,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    },
+    {
+      "code": "600549",
+      "name": "厦门钨业",
+      "rank": 8,
+      "score": 0.5809027777777778,
+      "price": 75.05,
+      "trigger_price": 75.05,
+      "quote_source": "akshare_daily",
+      "change_pct": -8.64,
+      "one_lot_value": 7505.0,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    },
+    {
+      "code": "600674",
+      "name": "川投能源",
+      "rank": 9,
+      "score": 0.5808333333333333,
+      "price": 14.58,
+      "trigger_price": 14.58,
+      "quote_source": "akshare_daily",
+      "change_pct": 0.62,
+      "one_lot_value": 1458.0,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    },
+    {
+      "code": "000657",
+      "name": "中钨高新",
+      "rank": 10,
+      "score": 0.5806018518518519,
+      "price": 89.63,
+      "trigger_price": 89.63,
+      "quote_source": "akshare_daily",
+      "change_pct": -7.63,
+      "one_lot_value": 8963.0,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    }
+  ],
+  "explicit_buy_orders": [],
+  "final_action": "NO_TRADE"
+}

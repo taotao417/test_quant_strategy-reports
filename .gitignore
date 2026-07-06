@@ -1,13 +1,34 @@
-# 忽略敏感文件
+# ──── 凭据 & 私密文件 ────
 .wechat_push_key
-position_history/
+.ssh_config
+*.key
+*.pem
+
+# ──── 持仓走 git submodule，主仓不直接放 ────
+# (position_history/ 已经在下方的"白名单"中保留子模块元数据)
+!position_history/.git
+!position_history/.gitmodules
+!position_history/.gitkeep
+
+# ──── 缓存 / 大文件（不上仓） ────
 stock_price_cache/
-backtest_results/
+stock_v11_1_cache/
 *.log
 logs/
+
+# ──── 双轨调度：云端产物的"邮箱"和"隔离区" ────
+.cloud_inbox/
+.cloud_quarantine/
+.cloud_sent/
+.state_cache/
+.wechat_relay_idempotency.json
+.gh_dispatch_seen.json
+
+# ──── 本地工作流 ────
 __pycache__/
 .DS_Store
 .venv/
+.workbuddy/
+.tools/
 
-# 仅推送报告文件
-!position_history/.gitkeep
+# ──── 保留 backtest_results/ 推回私有 Pages 仓（脱敏后） ────
