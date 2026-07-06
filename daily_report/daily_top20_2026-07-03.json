@@ -8,7 +8,7 @@
     },
     "stale": []
   },
-  "account_total_asset_for_filter": 102834.3,
+  "account_total_asset_for_filter": 90273.1,
   "account_total_asset_source": "current_holdings_estimated_total_asset",
   "pool_size": 120,
   "effective_count": 108,
@@ -645,5 +645,6 @@
       "amount_trend": 0.2766409960750116,
       "last_close": 135.35
     }
-  ]
+  ],
+  "profit_taking_candidates": []
 }
