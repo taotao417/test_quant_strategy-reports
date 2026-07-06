@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-07-06 14:51:19 CST",
+  "signal_date": "2026-07-03",
+  "today": "2026-07-06",
+  "quote_source_mode": "realtime",
+  "holdings_count": 12,
+  "account_total_asset": 90276.1,
+  "account_total_asset_source": "current_holdings_estimated_total_asset",
+  "holdings_update_date": "2026-07-06",
+  "stale_signal": true,
+  "sell_orders": [],
+  "sell_blocked": [],
+  "sell_cancelled": [],
+  "hold_orders": [
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "shares": 100.0,
+      "cost": 167.752,
+      "rank": 13,
+      "score": 0.5738425925925926,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "shares": 100.0,
+      "cost": 142.94,
+      "rank": 20,
+      "score": 0.5589120370370371,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002353",
+      "name": "杰瑞股份",
+      "shares": 100.0,
+      "cost": 162.15,
+      "rank": 11,
+      "score": 0.5832175925925926,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600160",
+      "name": "巨化股份",
+      "shares": 200.0,
+      "cost": 46.555,
+      "rank": 7,
+      "score": 0.5961342592592592,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002049",
+      "name": "紫光国微",
+      "shares": 100.0,
+      "cost": 80.06,
+      "rank": 8,
+      "score": 0.5939583333333334,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601995",
+      "name": "中金公司",
+      "shares": 200.0,
+      "cost": 36.575,
+      "rank": 1,
+      "score": 0.6325694444444445,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600522",
+      "name": "中天科技",
+      "shares": 100.0,
+      "cost": 49.751,
+      "rank": 16,
+      "score": 0.5673148148148148,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002422",
+      "name": "科伦药业",
+      "shares": 100.0,
+      "cost": 36.45,
+      "rank": 2,
+      "score": 0.6325231481481481,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "shares": 100.0,
+      "cost": 96.031,
+      "rank": 10,
+      "score": 0.585324074074074,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601658",
+      "name": "邮储银行",
+      "shares": 100.0,
+      "cost": 5.01,
+      "rank": 12,
+      "score": 0.5828935185185186,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600460",
+      "name": "士兰微",
+      "shares": 200.0,
+      "cost": 46.691,
+      "rank": 4,
+      "score": 0.598587962962963,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600150",
+      "name": "中国船舶",
+      "shares": 100.0,
+      "cost": 37.63,
+      "rank": 9,
+      "score": 0.5879861111111111,
+      "reason": "Top20内持有"
+    }
+  ],
+  "buy_watch": [
+    {
+      "code": "300661",
+      "name": "圣邦股份",
+      "rank": 3,
+      "score": 0.6037962962962964,
+      "price": 136.05,
+      "trigger_price": 136.05,
+      "quote_source": "sina_realtime",
+      "change_pct": -2.542979942693402,
+      "one_lot_value": 13605.000000000002,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    },
+    {
+      "code": "601100",
+      "name": "恒立液压",
+      "rank": 5,
+      "score": 0.5970138888888888,
+      "price": 117.18,
+      "trigger_price": 117.18,
+      "quote_source": "sina_realtime",
+      "change_pct": -3.6823935558112697,
+      "one_lot_value": 11718.0,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    },
+    {
+      "code": "002600",
+      "name": "领益智造",
+      "rank": 6,
+      "score": 0.5969212962962963,
+      "price": 16.22,
+      "trigger_price": 16.22,
+      "quote_source": "sina_realtime",
+      "change_pct": -9.98890122086571,
+      "one_lot_value": 1622.0,
+      "blocked": true,
+      "reason": "旧信号风险：持仓已在信号日后更新，需重新生成最新盘后信号或显式允许旧信号买入",
+      "decision_scenario": "stale_signal_block"
+    }
+  ],
+  "explicit_buy_orders": [],
+  "final_action": "NO_TRADE"
+}
