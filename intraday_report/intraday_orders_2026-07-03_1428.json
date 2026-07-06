@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-07-03 14:28:49 CST",
+  "signal_date": "2026-07-02",
+  "today": "2026-07-03",
+  "quote_source_mode": "daily",
+  "holdings_count": 10,
+  "account_total_asset": 102089.3,
+  "account_total_asset_source": "current_holdings_estimated_total_asset",
+  "holdings_update_date": "2026-06-30",
+  "stale_signal": false,
+  "sell_orders": [
+    {
+      "code": "002353",
+      "name": "杰瑞股份",
+      "shares": 100.0,
+      "cost": 162.1,
+      "rank": null,
+      "trigger": "持仓跌出Top20",
+      "quote": {
+        "date": "2026-07-03",
+        "time": "14:28:48",
+        "code": "002353",
+        "name": "杰瑞股份",
+        "price": 161.46,
+        "trigger_price": 161.46,
+        "prev_close": 146.78,
+        "change_pct": 10.001362583458251,
+        "open": 146.0,
+        "high": 161.46,
+        "low": 146.0,
+        "amount": 2524270531.22,
+        "source": "sina_realtime"
+      },
+      "execution_check": "可卖：非停牌、非跌停、有成交",
+      "explicit_trade_instruction": true,
+      "instruction_text": "卖出 002353 100股",
+      "reason": "盘后跌出Top20，盘中可成交"
+    }
+  ],
+  "sell_blocked": [],
+  "hold_orders": [
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "shares": 100.0,
+      "cost": 170.692,
+      "rank": 15,
+      "score": 0.5706712962962963,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "shares": 100.0,
+      "cost": 142.94,
+      "rank": 16,
+      "score": 0.5703935185185186,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600160",
+      "name": "巨化股份",
+      "shares": 200.0,
+      "cost": 46.555,
+      "rank": 1,
+      "score": 0.6375694444444444,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002049",
+      "name": "紫光国微",
+      "shares": 100.0,
+      "cost": 80.37,
+      "rank": 6,
+      "score": 0.6002777777777778,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601995",
+      "name": "中金公司",
+      "shares": 200.0,
+      "cost": 36.575,
+      "rank": 2,
+      "score": 0.6342592592592593,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "600522",
+      "name": "中天科技",
+      "shares": 100.0,
+      "cost": 49.751,
+      "rank": 12,
+      "score": 0.5766203703703705,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "002422",
+      "name": "科伦药业",
+      "shares": 100.0,
+      "cost": 36.45,
+      "rank": 3,
+      "score": 0.623125,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601916",
+      "name": "浙商银行",
+      "shares": 3000.0,
+      "cost": 2.961,
+      "rank": 18,
+      "score": 0.5683333333333335,
+      "reason": "Top20内持有"
+    },
+    {
+      "code": "601658",
+      "name": "邮储银行",
+      "shares": 100.0,
+      "cost": 5.01,
+      "rank": 4,
+      "score": 0.6088425925925927,
+      "reason": "Top20内持有"
+    }
+  ],
+  "buy_watch": [
+    {
+      "code": "300661",
+      "name": "圣邦股份",
+      "rank": 5,
+      "score": 0.6039351851851852,
+      "price": 140.04,
+      "trigger_price": 140.04,
+      "quote_source": "akshare_daily",
+      "change_pct": -1.38,
+      "one_lot_value": 14004.0,
+      "blocked": true,
+      "reason": "现金不足一手",
+      "decision_scenario": "cash_block"
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "rank": 7,
+      "score": 0.5886805555555555,
+      "price": 92.08,
+      "trigger_price": 92.08,
+      "quote_source": "akshare_daily",
+      "change_pct": -4.06,
+      "one_lot_value": 9208.0,
+      "blocked": false,
+      "reason": "通过盘中买入过滤",
+      "decision_scenario": "replacement_after_sell"
+    },
+    {
+      "code": "600549",
+      "name": "厦门钨业",
+      "rank": 8,
+      "score": 0.5809027777777778,
+      "price": 75.64,
+      "trigger_price": 75.64,
+      "quote_source": "akshare_daily",
+      "change_pct": -7.92,
+      "one_lot_value": 7564.0,
+      "blocked": true,
+      "reason": "现金不足一手",
+      "decision_scenario": "cash_block"
+    },
+    {
+      "code": "600674",
+      "name": "川投能源",
+      "rank": 9,
+      "score": 0.5808333333333333,
+      "price": 14.56,
+      "trigger_price": 14.56,
+      "quote_source": "akshare_daily",
+      "change_pct": 0.48,
+      "one_lot_value": 1456.0,
+      "blocked": true,
+      "reason": "现金不足一手",
+      "decision_scenario": "cash_block"
+    },
+    {
+      "code": "000657",
+      "name": "中钨高新",
+      "rank": 10,
+      "score": 0.5806018518518519,
+      "blocked": true,
+      "reason": "行情缺失/待核实",
+      "decision_scenario": "filter_block"
+    }
+  ],
+  "explicit_buy_orders": [
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "rank": 7,
+      "score": 0.5886805555555555,
+      "shares": 100,
+      "price": 92.08,
+      "estimated_amount": 9208.0,
+      "decision_scenario": "replacement_after_sell",
+      "explicit_trade_instruction": true,
+      "instruction_text": "买入 600584 100股",
+      "trigger_conditions": "未持有Top10；实时触发价涨幅<3%；非停牌/非涨停；一手金额适配；现金足够",
+      "block_conditions": "涨幅>=3%/涨停/停牌/无成交/一手金额超限/现金不足/旧信号",
+      "reason": "有持仓跌出Top20卖出可成交，通过过滤的候选可买入"
+    }
+  ],
+  "final_action": "TRADE"
+}

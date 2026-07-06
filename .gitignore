@@ -1,0 +1,13 @@
+# 忽略敏感文件
+.wechat_push_key
+position_history/
+stock_price_cache/
+backtest_results/
+*.log
+logs/
+__pycache__/
+.DS_Store
+.venv/
+
+# 仅推送报告文件
+!position_history/.gitkeep
