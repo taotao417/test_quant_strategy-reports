@@ -646,5 +646,21 @@
       "last_close": 13.81
     }
   ],
-  "profit_taking_candidates": []
+  "profit_taking_candidates": [
+    {
+      "code": "600160",
+      "name": "巨化股份",
+      "rank": 11,
+      "shares": 200,
+      "cost": 46.555,
+      "buy_date": "2026-06-16",
+      "peak_close": 55.85,
+      "peak_dd": null,
+      "float_pnl_pct": 0.05359252497046496,
+      "dd_pct": -12.17547000895256,
+      "signal_close": 49.05,
+      "trigger_reason": "止盈卖出",
+      "recheck_required": true
+    }
+  ]
 }
